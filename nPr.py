@@ -8,6 +8,7 @@ def factorial(i):
 
 
 n = int(input("Enter n"))
-p = int(input("Enter p"))
-npr = factorial(n)/factorial(n-p)
+r = int(input("Enter r"))
+#  Calculates nPr=n!/((n-r)!
+npr = factorial(n)/factorial(n-r)
 print npr

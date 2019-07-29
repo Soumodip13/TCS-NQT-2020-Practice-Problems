@@ -10,6 +10,7 @@ for num in range(lower,upper + 1):
                break
        else:
            print(num)
+           # Calculates the sum of primes between 1-100
            sum = sum + num
 
 print "Total sum ", sum

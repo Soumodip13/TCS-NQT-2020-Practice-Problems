@@ -1,6 +1,6 @@
 number = int(input())
 
-
+# Displays Factorial of a nymber
 def factorial(i):
     if i == 0:
         return 1

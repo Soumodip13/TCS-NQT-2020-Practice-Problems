@@ -6,7 +6,7 @@ def factorial(i):
     else:
         return i*factorial(i-1)
 
-
+#  Calculates nCr=n!/((n-r)!*r!
 n = int(input("Enter n"))
 r = int(input("Enter r"))
 ncr = factorial(n)/(factorial(n-r)*factorial(r))
